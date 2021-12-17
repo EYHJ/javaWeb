@@ -11,7 +11,14 @@
 # 文件说明如下：
 shop是商城项目，shopManager是商城的管理项目
 ## 前端
->util封装了axios等工具
+>使用的是Vue3，各依赖如下：  
+>>"axios": "^0.24.0",  
+>>"core-js": "^3.6.5",  
+>>"element-plus": "^1.1.0-beta.24",  
+>>"vue": "^3.0.0",  
+>>"vue-router": "^4.0.0-0",  
+>>"vuex": "^4.0.0-0"  
+>util中封装了axios等工具
 ### shop
 >login是登录页  
 >register是注册页  
