@@ -6,8 +6,6 @@
 顾客： 用户的注册、登录、注销 购买流程（浏览/查询->添加至购物篮->付款->发送电子邮件确认收货）  
 销售： 商品目录的管理（包括最基本的增删改等操作） 后台销售统计报表，销售状态 客户的浏览/购买日志记录  
 
-# 学号：201930344268 杨浩杰
-
 # 文件说明如下：
 shop是商城项目，shopManager是商城的管理项目
 ## 前端
@@ -20,20 +18,20 @@ shop是商城项目，shopManager是商城的管理项目
 >>"vuex": "^4.0.0-0"  
 >util中封装了axios等工具
 ### shop
->login是登录页  
->register是注册页  
->main是首页，展示商品列表  
->commodity是商品的具体信息页  
->order是购物车和下单页面  
+>login 登录页  
+>register 注册页  
+>main 首页，展示商品列表  
+>commodity 商品的具体信息页  
+>order 购物车和下单页面  
 ### shopManager
->login是登录页  
->main是首页，包含以下三个子模块  
->>manager商品管理页,包括修改/删除功能(修改时会跳转到modify修改页)  
->>new新增页  
->>summary查看订单页面  
+>login 登录页  
+>main 首页，包含以下三个子模块  
+>>manager 商品管理页,包括修改/删除功能(修改时会跳转到modify修改页)  
+>>new 新增页  
+>>summary 查看订单页面  
 
 ## 后端
->Interact.java封装了gson  
+>Interact.java封装了gson，实现Resful风格的接口规范
 >Email.java封装了发送邮件的相关API  
 >DBPool.java封装了数据库连接池相关的API  
 ### shop
